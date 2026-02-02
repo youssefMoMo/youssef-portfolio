@@ -3,50 +3,6 @@
     {
       "source": "/api/gamesData.php",
       "destination": "/api/gamesData"
-    },
-    {
-      "source": "/api/pricing.php",
-      "destination": "/api/pricing"
-    },
-    {
-      "source": "/api/reviews.php",
-      "destination": "/api/reviews"
-    },
-    {
-      "source": "/api/admin/pricing.php",
-      "destination": "/api/admin/pricing"
-    },
-    {
-      "source": "/api/admin/reviews.php",
-      "destination": "/api/admin/reviews"
-    },
-    {
-      "source": "/admin",
-      "destination": "/api/admin/page-login"
-    },
-    {
-      "source": "/admin/index.php",
-      "destination": "/api/admin/page-login"
-    },
-    {
-      "source": "/admin/index.html",
-      "destination": "/api/admin/page-login"
-    },
-    {
-      "source": "/admin/dashboard",
-      "destination": "/api/admin/page-dashboard"
-    },
-    {
-      "source": "/admin/dashboard.php",
-      "destination": "/api/admin/page-dashboard"
-    },
-    {
-      "source": "/admin/dashboard.html",
-      "destination": "/api/admin/page-dashboard"
-    },
-    {
-      "source": "/admin/logout.php",
-      "destination": "/api/admin/logout"
     }
   ],
   "headers": [

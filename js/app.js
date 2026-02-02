@@ -33,7 +33,7 @@
             '92369489899222',
             '121873420604621'
         ],
-        API_ENDPOINT: '/api/gamesData.php',
+        API_ENDPOINT: '/api/gamesData',
         LOADER_DELAY: 500,
         RATE_LIMIT: 10,
         RATE_WINDOW: 60000,

@@ -27,19 +27,6 @@ OR
 - MYSQL_USER
 - MYSQL_PASSWORD
 
-### Admin Security
-- ADMIN_JWT_SECRET (random 32+ chars)
-- ADMIN_USER
-- ADMIN_PASS_HASH (bcrypt hash)  ← use bcryptjs to generate, or any bcrypt generator
-- ADMIN_ALLOWLIST (comma-separated IPs), example: `154.238.160.118,127.0.0.1`
+### Admin
 
-Optional:
-- CORS_ALLOW_ORIGINS (comma-separated origins). If omitted, same-origin only.
-
-## Admin URLs
-- Login: `/admin`
-- Dashboard: `/admin/dashboard`
-
-Admin pages are served through serverless functions to keep **stealth 404** for unauthorized users.
-
-> Note: On Vercel you cannot use `.htaccess`. This build enforces the "stealth 404" behavior **inside the serverless APIs**.
+Admin has been removed from this build.
